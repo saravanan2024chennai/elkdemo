@@ -1,0 +1,14 @@
+2024-12-09T22:59:30.258+05:30  INFO 11588 --- [ELK-STACK-EXAMPLE] [main] c.s.elk.ElkStackExampleApplication       : Starting ElkStackExampleApplication using Java 17.0.13 with PID 11588 (C:\Users\saravanan.1.p\Downloads\ELK\elk-stack-logging-example-master\elk-stack-logging-example-master\target\classes started by Saravanan.1.P in C:\Users\saravanan.1.p\Downloads\ELK\elk-stack-logging-example-master\elk-stack-logging-example-master)
+2024-12-09T22:59:30.274+05:30  INFO 11588 --- [ELK-STACK-EXAMPLE] [main] c.s.elk.ElkStackExampleApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-12-09T22:59:31.412+05:30  INFO 11588 --- [ELK-STACK-EXAMPLE] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9898 (http)
+2024-12-09T22:59:31.426+05:30  INFO 11588 --- [ELK-STACK-EXAMPLE] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-09T22:59:31.426+05:30  INFO 11588 --- [ELK-STACK-EXAMPLE] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-09T22:59:31.488+05:30  INFO 11588 --- [ELK-STACK-EXAMPLE] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-09T22:59:31.489+05:30  INFO 11588 --- [ELK-STACK-EXAMPLE] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1146 ms
+2024-12-09T22:59:31.886+05:30  INFO 11588 --- [ELK-STACK-EXAMPLE] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9898 (http) with context path ''
+2024-12-09T22:59:31.895+05:30  INFO 11588 --- [ELK-STACK-EXAMPLE] [main] c.s.elk.ElkStackExampleApplication       : Started ElkStackExampleApplication in 2.204 seconds (process running for 2.835)
+2024-12-09T23:00:07.031+05:30  INFO 11588 --- [ELK-STACK-EXAMPLE] [http-nio-9898-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-09T23:00:07.032+05:30  INFO 11588 --- [ELK-STACK-EXAMPLE] [http-nio-9898-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-09T23:00:07.034+05:30  INFO 11588 --- [ELK-STACK-EXAMPLE] [http-nio-9898-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-09T23:00:07.090+05:30  INFO 11588 --- [ELK-STACK-EXAMPLE] [http-nio-9898-exec-1] c.s.elk.ElkStackExampleApplication       : user found : User(id=1, name=John)
+2024-12-09T23:04:56.687+05:30  INFO 11588 --- [ELK-STACK-EXAMPLE] [http-nio-9898-exec-3] c.s.elk.ElkStackExampleApplication       : user found : User(id=2, name=Shyam)
